@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.pager {
+  width: 80%;
+  height: 70px;
+  line-height: 70px;
+  margin: 0 auto;
+  text-align: center;
+}
+.pager a {
+  color: rgb(0, 26, 196);
+  padding: 7px 12px;
+  border: 1px solid #e1e2e3;
+  margin: 0 8px;
+  cursor: pointer;
+  user-select: none;
+}
+.pager a.disabled {
+  cursor: not-allowed;
+  color: #ccc;
+}
+.pager a.active {
+  border: none;
+  color: #f40;
+  cursor: auto;
+}

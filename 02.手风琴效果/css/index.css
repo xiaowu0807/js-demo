@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+.main {
+  margin: 0 auto;
+  width: 200px;
+}
+.menu {
+  margin: 20px 0;
+}
+.title {
+  background-color: rgb(173, 216, 230);
+  font-size: 16px;
+  font-weight: normal;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+.subMenu {
+  background-color: rgb(224, 240, 247);
+  overflow: hidden;
+}
+.subMenu li {
+  padding: 5px 0;
+  padding-left: 25px;
+}
